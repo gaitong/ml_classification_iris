@@ -110,7 +110,7 @@ tree.plot_tree(model)
 from sklearn import svm
 model = svm.SVC()
 #เทรนนิ่ง
-model.fit(X_train, y_train
+model.fit(X_train, y_train)
 #เทส
 model.score(X_train, y_train)
 model.score(X_test, y_test)
